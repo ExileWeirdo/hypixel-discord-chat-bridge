@@ -20,8 +20,8 @@
       "guildExp": 50000
     },
     "API": {
-      "hypixelAPIkey": "HYPIXEL_API_KEY",
-      "imgurAPIkey": "IMGUR_API_KEY"
+      "hypixelAPIkey": "HYPIXELAPIKEY",
+      "imgurAPIkey": "IMGURAPIKEY"
     },
     "guildRequirements": {
       "enabled": false,
@@ -73,11 +73,11 @@
   },
   "discord": {
     "bot": {
-      "token": "DISCORD_BOT_TOKEN",
-      "serverID": "DISCORD_SERVER_ID"
+      "token": "BOT_TOKEN",
+      "serverID": "SERVER_ID"
     },
     "channels": {
-      "guildChatChannel": "GUILD_CHAT_CHANNEL_ID",
+      "guildChatChannel": "GUILDCHAT_CHANNEL_ID",
       "officerChannel": "OFFICER_CHANNEL_ID",
       "loggingChannel": "LOGGING_CHANNEL_ID",
       "debugMode": true,
