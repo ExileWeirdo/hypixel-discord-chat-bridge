@@ -8,7 +8,7 @@ class ClassCalculatorCommand extends minecraftCommand {
     super(minecraft);
 
     this.name = "ClassCalculator";
-    this.aliases = ["class", "dungeons"];
+    this.aliases = ["archer", "mage", "tank" , "healer", "berserker"];
     this.description = "Calculator for next class level on specified class";
     this.options = [
       {
@@ -108,7 +108,7 @@ class ClassCalculatorCommand extends minecraftCommand {
         // assuming person has scarf's grimoire
         boostPercentage += 6;
         
-        // assuming person has the 10% perk from essense shop
+        // assuming person has the 10% perk from essense shops
         boostPercentage += 10;
 
         var xpPerRun = m7runXpBase * (boostPercentage / 100);
@@ -130,4 +130,4 @@ class ClassCalculatorCommand extends minecraftCommand {
   }
 }
 
-module.exports = ClassCalculator;
+module.exports = ClassCalculatorCommand;
